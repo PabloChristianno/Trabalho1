@@ -10,7 +10,7 @@ public class ControleDeCliente {
 		System.out.println("4 - Buscar por produto");
 		System.out.println("5 - Cadastro de venda");
 		System.out.println("6 - mostrar produtos em estoque");
-		System.out.println("7 - sair");
+		System.out.println("8 - sair");
 	}
 	
 		
@@ -236,6 +236,7 @@ public class ControleDeCliente {
 					String lucro;
 					String estoque;
 					
+					ler.nextLine();
 					System.out.print("Digite o nome do produto a ser pesquisado:\n");
 					nomep = ler.nextLine();
 					
